@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css\bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css\css.css">
+	<title>App Hibrido</title>
+</head>
+<body>
+	<div class="container-fluid">
+		
+		<!--Valor 1 -->
+		<div class="row">			
+			<div class="col-xs-12">
+				<label for="valor">Valor 1</label>
+				<input type="number" name="valor1" id="valor1" class="form-control">
+			</div>
+		</div>
+
+		<!--Valor 2 -->
+		<div class="row">			
+			<div class="col-xs-12">
+				<label for="valor">Valor 2</label>
+				<input type="number" name="valor2" id="valor2" class="form-control">
+			</div>
+		</div>
+
+		<!--Botão De Ação SOMAR -->
+		<div class="row botoes">			
+			<div class="col-xs-12">
+				<button type="button" id="Somar" class="btn btn-large btn-block btn-danger">Somar</button>
+			</div>
+		</div>
+
+		<!--Botão De Ação SUBTRAIR -->
+		<div class="row botoes">			
+			<div class="col-xs-12">
+				<button type="button" id="Subtrair" class="btn btn-large btn-block btn-warning">Subtrair</button>
+			</div>
+		</div>
+
+		<!--Botão De Ação MULTIPLICAR -->
+		<div class="row botoes">			
+			<div class="col-xs-12">
+				<button type="button" id="Multiplicar" class="btn btn-large btn-block btn-success">Multiplicar</button>
+			</div>
+		</div>
+
+		<!--Botão De Ação DIVIDIR -->
+		<div class="row botoes">			
+			<div class="col-xs-12">
+				<button type="button" id="Dividir" class="btn btn-large btn-block btn-primary">Dividir</button>
+			</div>
+		</div>
+
+		<!--Resultado -->
+		<div class="row">			
+			<div class="col-xs-12">
+				<label for="valor">Resultado</label>
+				<input type="number" name="resultado" id="resultado" class="form-control" readonly>
+			</div>
+		</div>
+
+	</div>
+
+<script type="text/javascript" src="js\jquery.min.js"></script>
+<script type="text/javascript" src="js\calcular.js"></script>
+
+</body>
+</html>
